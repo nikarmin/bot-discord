@@ -1,5 +1,6 @@
 const Discord = require("discord.js");
 
+require('dotenv').config();
 const intents = new Discord.Intents(32767);
 const client = new Discord.Client({intents});
 const config = require('./config.json');
@@ -31,4 +32,4 @@ client.on("message", async message =>{
     }
 });
 
-client.login(config.token);
+client.login(process.env.TOKEN);
