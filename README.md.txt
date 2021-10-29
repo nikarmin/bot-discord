@@ -1,3 +1,0 @@
-#bot-discord dos carecas
-
-apenas por diversão e talvez aprender um pouquinho mais...
